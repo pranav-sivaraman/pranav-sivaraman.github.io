@@ -14169,7 +14169,7 @@ Name: 2021-05-17 00:00:00, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">calculate_group_stage</span><span class="p">(</span><span class="n">group_rankings</span><span class="p">,</span> <span class="n">group_length</span><span class="o">=</span><span class="mi">4</span><span class="p">):</span>
@@ -14246,7 +14246,7 @@ Name: 2021-05-17 00:00:00, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">group_stage_results</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">((</span><span class="mi">6</span><span class="p">,</span><span class="mi">4</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">object</span><span class="p">)</span>
@@ -14358,7 +14358,7 @@ Group F results:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[68]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">find_winners</span><span class="p">(</span><span class="n">matches</span><span class="p">):</span>
@@ -14384,7 +14384,7 @@ Group F results:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[69]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">matches</span> <span class="o">=</span> <span class="p">[[</span><span class="s2">&quot;Belgium&quot;</span><span class="p">,</span> <span class="s2">&quot;Scotland&quot;</span><span class="p">],</span> <span class="p">[</span><span class="s2">&quot;Italy&quot;</span><span class="p">,</span> <span class="s2">&quot;Netherlands&quot;</span><span class="p">],</span> <span class="p">[</span><span class="s2">&quot;Portugal&quot;</span><span class="p">,</span> <span class="s2">&quot;Turkey&quot;</span><span class="p">],</span> <span class="p">[</span><span class="s2">&quot;Croatia&quot;</span><span class="p">,</span> <span class="s2">&quot;Sweden&quot;</span><span class="p">],</span> <span class="p">[</span><span class="s2">&quot;Spain&quot;</span><span class="p">,</span> <span class="s2">&quot;Austria&quot;</span><span class="p">],</span> <span class="p">[</span><span class="s2">&quot;England&quot;</span><span class="p">,</span> <span class="s2">&quot;France&quot;</span><span class="p">],</span> <span class="p">[</span><span class="s2">&quot;Ukraine&quot;</span><span class="p">,</span> <span class="s2">&quot;Poland&quot;</span><span class="p">],</span> <span class="p">[</span><span class="s2">&quot;Wales&quot;</span><span class="p">,</span> <span class="s2">&quot;Denmark&quot;</span><span class="p">]]</span>
@@ -14406,16 +14406,16 @@ Group F results:
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Match 1:	Belgium vs. Scotland
-Belgium Wins!
+Scotland Wins!
 *********************
 Match 2:	Italy vs. Netherlands
 Italy Wins!
 *********************
 Match 3:	Portugal vs. Turkey
-Turkey Wins!
+Portugal Wins!
 *********************
 Match 4:	Croatia vs. Sweden
-Croatia Wins!
+Sweden Wins!
 *********************
 Match 5:	Spain vs. Austria
 Spain Wins!
@@ -14451,7 +14451,7 @@ Denmark Wins!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[71]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">matches</span> <span class="o">=</span> <span class="p">[[</span><span class="s2">&quot;Scotland&quot;</span><span class="p">,</span> <span class="s2">&quot;Italy&quot;</span><span class="p">],</span> <span class="p">[</span><span class="s2">&quot;Portugal&quot;</span><span class="p">,</span> <span class="s2">&quot;Sweden&quot;</span><span class="p">],</span> <span class="p">[</span><span class="s2">&quot;Spain&quot;</span><span class="p">,</span> <span class="s2">&quot;France&quot;</span><span class="p">],</span> <span class="p">[</span><span class="s2">&quot;Poland&quot;</span><span class="p">,</span> <span class="s2">&quot;Denmark&quot;</span><span class="p">]]</span>
@@ -14476,13 +14476,13 @@ Denmark Wins!
 Italy Wins!
 *********************
 Match 2:	Portugal vs. Sweden
-Sweden Wins!
+Portugal Wins!
 *********************
 Match 3:	Spain vs. France
-France Wins!
+Spain Wins!
 *********************
 Match 4:	Poland vs. Denmark
-Poland Wins!
+Denmark Wins!
 *********************
 </pre>
 </div>
@@ -14504,7 +14504,7 @@ Poland Wins!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[72]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">matches</span> <span class="o">=</span> <span class="p">[[</span><span class="s2">&quot;Italy&quot;</span><span class="p">,</span> <span class="s2">&quot;Portugal&quot;</span><span class="p">],</span> <span class="p">[</span><span class="s2">&quot;Spain&quot;</span><span class="p">,</span> <span class="s2">&quot;Denmark&quot;</span><span class="p">]]</span>
@@ -14529,7 +14529,7 @@ Poland Wins!
 Portugal Wins!
 *********************
 Match 2:	Spain vs. Denmark
-Spain Wins!
+Denmark Wins!
 *********************
 </pre>
 </div>
@@ -14551,7 +14551,7 @@ Spain Wins!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[80]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">matches</span> <span class="o">=</span> <span class="p">[[</span><span class="s2">&quot;Portugal&quot;</span><span class="p">,</span> <span class="s2">&quot;Denmark&quot;</span><span class="p">]]</span>
@@ -14573,7 +14573,7 @@ Spain Wins!
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Match 1:	Portugal vs. Denmark
-Denmark Wins!
+Portugal Wins!
 *********************
 </pre>
 </div>
